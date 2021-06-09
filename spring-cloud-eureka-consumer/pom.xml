@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>xyz.lgdong</groupId>
-    <artifactId>spring-cloud-eureka-comsumer</artifactId>
+    <artifactId>spring-cloud-eureka-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-cloud-eureka-consumer</name>
     <description>Demo project for Spring Boot</description>
