@@ -3,7 +3,7 @@ spring:
     name: eureka-producer
 
 server:
-  port: 10222
+  port: 10223
 
 
 eureka:
