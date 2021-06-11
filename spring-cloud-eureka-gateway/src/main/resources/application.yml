@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka-gateway
+  cloud:
+    gateway:
+      discovery:
+        # locator需要打开，不然通过 lb://.. 方式请求不到
+        locator:
+          enabled: true
+server:
+  port: 10244
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10211/eureka/
+  instance:
+    prefer-ip-address: true
